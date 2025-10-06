@@ -14,12 +14,12 @@ let package = Package(
           targets: ["StorytellerBrightcoveTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/getstoryteller/storyteller-sdk-swift-package", .upToNextMajor(from: "10.8.0")),
+        .package(url: "https://github.com/getstoryteller/storyteller-sdk-swift-package", .upToNextMajor(from: "11.0.0")),
     ],
     targets: [
       .binaryTarget(name: "StorytellerBrightcoveIntegration",
-                    url: "https://storyteller.azureedge.net/sdk-ios/brightcove/1.3.0/StorytellerBrightcoveIntegration.zip",
-                    checksum: "3b8c08571789d9d4d1e2fb13154008a4529a265fd24e3d6de8a89ab84d9c579d"),
+                    url: "https://storyteller.azureedge.net/sdk-ios/brightcove/1.4.0/StorytellerBrightcoveIntegration.zip",
+                    checksum: "cdd3cfd680f24cd6bc6ad3c4f7b4bfdd88c6833c08a2d7b4710da83404bab031"),
       .target(
           name: "StorytellerBrightcoveTarget",
           dependencies: [
