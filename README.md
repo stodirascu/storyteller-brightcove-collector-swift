@@ -11,7 +11,7 @@ Add Storyteller Brightcove Collector using SPM:
 
 To use the module, StorytellerSDK needs to be set to version `11.0.0` or higher.
 
-In the file where you setup the Storyteller SDK, import the added package, set up the module and set it on the `Storyteller` class:
+In the file where you setup the StorytellerSDK, import the added package, set up the module, and set it up as a `Storyteller` module:
 
 ```swift
 import StorytellerBrightcoveIntegration
@@ -29,5 +29,3 @@ func initializeStoryteller() {
     // other Storyteller initialization code
 }
 ```
-
-Code sample is also available in the [Showcase App](https://github.com/getstoryteller/storyteller-showcase-ios).
